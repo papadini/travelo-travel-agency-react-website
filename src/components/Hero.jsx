@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import homeImage from "../assets/hero.png";
+import homeImage from "../assets/hero.webp";
 export default function Hero() {
   return (
     <Section id="hero">
@@ -9,7 +9,7 @@ export default function Hero() {
       </div>
       <div className="content">
         <div className="title">
-          <h1>TRAVEL TO EXPLORE</h1>
+          <h1>Outdoor Advantage</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
             natus, enim ipsam magnam odit deserunt itaque? Minima earum velit

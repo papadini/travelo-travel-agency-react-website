@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo1.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { VscChromeClose } from "react-icons/vsc";
 export default function Navbar() {
@@ -9,9 +9,8 @@ export default function Navbar() {
     <>
       <Nav>
         <div className="brand">
-          <div className="container">
+          <div height='100' className="container">
             <img src={logo} alt="" />
-            Travelo
           </div>
           <div className="toggle">
             {navbarState ? (
@@ -27,16 +26,16 @@ export default function Navbar() {
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#services">About</a>
+            <a href="#services">Lease a property</a>
           </li>
           <li>
-            <a href="#recommend">Places</a>
+            <a href="#recommend">Search by state</a>
           </li>
           <li>
-            <a href="#testimonials">Testimonials</a>
+            <a href="#testimonials">About</a>
           </li>
         </ul>
-        <button>Connect</button>
+        <button >Login/Sign up</button>
       </Nav>
       <ResponsiveNav state={navbarState}>
         <ul>
